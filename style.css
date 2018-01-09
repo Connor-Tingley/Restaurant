@@ -1,0 +1,236 @@
+body{
+	background-color: rgb(40,40,40);
+	font-family: 'Oswald', sans-serif;
+}
+.spacerBlock1{
+	position: absolute;
+	top: 150px;
+	left: 0;
+	width: 100%;
+	height: 25px;
+	background-color: rgb(15,15,15);
+}
+.spacerBlock2{
+	position: absolute;
+	top: 687px;
+	left: 0;
+	width: 100%;
+	height: 25px;
+	background-color: rgb(15,15,15);
+	}
+.spacerBlock3{
+	position: absolute;
+	top: 962px;
+	left: 0;
+	width: 100%;
+	height: 25px;
+	background-color: rgb(15,15,15);
+	}
+.spacerBlock4{
+	position: absolute;
+	top: 5063px;
+	left: 0;
+	width: 100%;
+	height: 25px;
+	background-color: rgb(15,15,15);
+	}
+.spacerBlock5{
+	position: absolute;
+	top: 5338px;
+	left: 0;
+	width: 100%;
+	height: 25px;
+	background-color: rgb(15,15,15);
+	z-index:10;
+	}
+.spacerBlock6{
+	position: fixed;
+	top: 430px;
+	left: 0;
+	width: 100%;
+	height: 25px;
+	background-color: rgb(15,15,15);
+	}
+.spacerBlock7{
+	position: fixed;
+	top: 680px;
+	left: 0;
+	width: 100%;
+	height: 25px;
+	background-color: rgb(15,15,15);
+	z-index:10;
+	}
+.titleText{
+	position: absolute;
+	top: -35px;
+	left: 0;
+	width: 100%;
+}
+.titleBlock{
+	text-align: center;
+	color: white;
+	position: fixed;
+	font-size: 400%;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 150px;
+	background: radial-gradient(rgb(74,44,121),rgb(42,22,42));
+	border-bottom: solid;
+    border-width: 25px;
+    border-color: rgb(15,15,15);
+    z-index:1000
+}
+.linkBlock{
+	position: absolute;
+	top: 712px;
+	left: 0;
+	width: 100%;
+	height: 250px;
+	background: linear-gradient(rgb(58,33,82),rgb(42,22,42));
+}
+.linkBlockEmpty{
+	position: absolute;
+	top: 5088px;
+	left: 0px;
+	width: 100%;
+	height: 250px;
+	background: linear-gradient(rgb(58,33,82),rgb(42,22,42));
+}
+.linkBlockEmpty1{
+	position: absolute;
+	top: 430px;
+	left: 0px;
+	width: 100%;
+	height: 250px;
+	background: linear-gradient(rgb(58,33,82),rgb(42,22,42));
+	z-index: -10;
+}
+.locations{
+	position: absolute;
+	text-align: center;
+	text-decoration: none;
+	font-size: 150%; 
+	top: -10px;
+	left: 12%;
+	width: 75%;
+	height: 150px;
+	color: white;
+}
+.menuBlock{
+	position: absolute;
+	text-decoration: none;
+	font-size: 200%; 
+	top: 25px;
+	left: 11%;
+	width: 15%;
+	height: 150px;
+	border: solid;
+    border-width: 25px;
+    border-color: rgb(15,15,15);
+	background-color: rgb(40,40,40);
+	color: white;
+}
+.aboutUsBlock{
+	position: absolute;
+	text-decoration: none;
+	font-size: 200%; 
+	top: 25px;
+	left: 0; 
+  	right: 0; 
+  	margin-left: auto; 
+ 	margin-right: auto;
+	width: 15%;
+	height: 150px;
+	border: solid;
+    border-width: 25px;
+    border-color: rgb(15,15,15);
+	background-color: rgb(40,40,40);
+	color: white;
+}
+.mapBlock{
+	position: absolute;
+	text-decoration: none;
+	font-size: 200%; 
+	top: 25px;
+	right: 11%;
+	width: 15%;
+	height: 150px;
+	border: solid;
+    border-width: 25px;
+    border-color: rgb(15,15,15);
+	background-color: rgb(40,40,40);
+	color: white;
+}
+.menuBlock:hover{
+	color: rgb(74,44,121);
+}
+.aboutUsBlock:hover{
+	color: rgb(74,44,121);
+}
+.mapBlock:hover{
+	color: rgb(74,44,121);
+}
+
+.linkWord{
+	position: absolute;
+	width: 100%;
+	top: 70px;
+	text-align: center;
+}
+.icon{
+	position: absolute;
+	top: 0px;
+	left: 20%;
+}
+.titleIMG{
+	position: absolute;
+	top: 12%;
+	left: 8%;
+}
+.sandwich{
+	position: absolute;
+	width: 75%;
+	top: 175px;
+	left: 0; 
+  	right: 0; 
+  	margin-left: auto; 
+  	margin-right: auto;
+	border-bottom: solid;
+	border-left: solid;
+	border-right: solid;
+    border-width: 25px;
+    border-color: rgb(15,15,15);
+}
+.aboutList{
+	background-color: rgb(255,255,255);
+	position: fixed;
+	padding: 3%;
+	width: 69%;
+	top: 150px;
+	left: 0px; 
+  	right: 0px; 
+  	margin-left: auto; 
+  	margin-right: auto;
+	border-bottom: solid;
+	border-left: solid;
+	border-right: solid;
+    border-width: 25px;
+    border-color: rgb(15,15,15);
+}
+.menuList{
+	background-color: rgb(255,255,255);
+	position: relative;
+	text-indent: 25px;
+	width: 50%;
+	top: 150px;
+	left: 0px; 
+  	right: 0px; 
+  	margin-left: auto; 
+  	margin-right: auto;
+	border-bottom: solid;
+	border-left: solid;
+	border-right: solid;
+    border-width: 25px;
+    border-color: rgb(15,15,15);
+}
